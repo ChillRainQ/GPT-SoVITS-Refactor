@@ -8,6 +8,8 @@ SOVITS_DIR = os.path.join(CURRENT_DIR, "sovits")
 CNHUBERT_PATH = os.path.join(CURRENT_DIR, "chinese-hubert-base")
 BERT_PATH = os.path.join(CURRENT_DIR, "chinese-roberta-wwm-ext-large")
 
+
+
 GPT_LIST = file_util.get_files_in_dir(GPT_DIR)
 SOVITS_LIST = file_util.get_files_in_dir(SOVITS_DIR)
 
